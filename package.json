@@ -1,0 +1,28 @@
+{
+  "name": "platzom",
+  "version": "0.1.0",
+  "description": "Traductor del idioma Platzom",
+  "main": "dist/src/platzon.js",
+  "scripts": {
+    "build": "babel src/platzom.js -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amper1/platzom.git"
+  },
+  "keywords": [
+    "platzon",
+    "amper"
+  ],
+  "author": "Ernesto Pedraza <amper.1@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/amper1/platzom/issues"
+  },
+  "homepage": "https://github.com/amper1/platzom#readme",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "save-dev": "^2.0.0"
+  },
+  "devDependencies": {}
+}
